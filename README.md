@@ -31,6 +31,15 @@ this project's menu include adding new records, listing them, editing and updati
 * Delete contacts from the phonebook.
 * Contacts are stored in a file for persistence.
 
+**Architecture**
+
+The Phonebook Management System follows a layered architecture with three main components:
+* User Interface (Menu System)
+* Core Functions (Add, Display, Search, Delete)
+* Data Management (In-Memory Storage and File-Based Persistence)
+
+For a detailed architecture diagram and explanation, see [ARCHITECTURE.md](ARCHITECTURE.md).
+
 **Getting Started**
 
 To use the Phonebook Application, follow these steps:
@@ -71,4 +80,3 @@ Contacts are loaded from this file when the program starts and are saved back to
 **Contributing**
 
 Contributions to this project are welcome! If you find any issues or want to add enhancements, feel free to open an issue or submit a pull request.
-
